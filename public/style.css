@@ -1,3 +1,4 @@
+
 * {
 	padding: 0;
 	margin-top: 0;
@@ -23,7 +24,7 @@ img {
 
 .alignright { text-align:right;}
 .clear { clear:both;}
-.bg_line { background:url(images/bg_line.gi) top left repeat-x; padding-top:0px;}
+.bg_line { background:url(images/bg_line.gif) top left repeat-x; padding-top:0px;}
 .bg_line1 { background:url(images/bg_line.gif) top left repeat-x; padding-top:0px; margin-top:0px;}
 .bg_line2 { background:url(images/bg_line.gif) bottom left repeat-x; padding-bottom:43px; margin-bottom:23px;}
 
@@ -96,7 +97,7 @@ li a:hover{ text-decoration:none}
 /*index.html*/
 #page1 #header .logo { margin:31px 149px 0 32px;}
 #page1 #content .col1{ width:387px; height:46px; background:url(images/snake.png) top left no-repeat;}
-#page1 #content .col1 .title { margin:426px 95px 2px 32px;}
+#page1 #content .col1 .title { margin:426px 95px 5px 32px;}
 #page1 #content .col2 { width:393px;}
 
 /*index-1.html*/
@@ -154,4 +155,54 @@ textarea{
    font-size:1em; 
    font-family:Helvetica;
    overflow:auto;
+}
+
+.banner {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#fff;
+}
+
+.easter
+{
+	visibility:;
+}
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 26px 0px #090a0a;
+	-webkit-box-shadow:inset 0px 1px 26px 0px #090a0a;
+	box-shadow:inset 0px 1px 26px 0px #090a0a;
+	background-color:#000000;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+}.button:hover {
+	background-color:#fdfd00;
+}.button:active {
+	position:relative;
+	top:1px;
 }
